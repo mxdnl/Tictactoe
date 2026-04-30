@@ -1,0 +1,33 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:root {
+    --board-size: 50vh;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: var(--board-size);
+    height: var(--board-size);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1%;
+    gap: 3%; 
+    background-color: rgb(57, 57, 57);
+
+}
+
+.cell {
+    background-color: rgb(171, 171, 171);
+    border-radius: 5px;
+}
+
+.cell:hover {
+    background-color: rgb(200, 200, 200);
+}
