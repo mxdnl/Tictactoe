@@ -1,9 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
 :root {
@@ -26,8 +31,15 @@ body {
 .cell {
     background-color: rgb(171, 171, 171);
     border-radius: 5px;
+    font-size: 5rem;
+    line-height: 0;
 }
 
 .cell:hover {
     background-color: rgb(200, 200, 200);
 }
+
+button {
+    border: none;
+}
+
