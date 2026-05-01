@@ -78,9 +78,7 @@ const tictactoe = (() => {
     return {
         game, 
         getBoard,
-        playerMove, 
-        player1, 
-        player2,
+        playerMove,
         checkWinner,
         reset
     };
